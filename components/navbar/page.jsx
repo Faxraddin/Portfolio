@@ -20,8 +20,8 @@ const Navbar = () => {
             <div className="flex items-center justify-between gap-20">
               <Link href="/about" className={pathname == "/about" ? "text-slate-600 " : "text-white hover:text-slate-600 route"}>about</Link>
               <Link className={pathname ==  "/portfolio" ? "text-slate-600 " : "text-white hover:text-slate-600 route"} href={'/portfolio'}>portfolio</Link>
-              <Link className="text-white hover:text-slate-600 route" href={'/blog'}>blog</Link>
-              <Link className="text-white hover:text-slate-600 route" href={'/contact'}>contact</Link>
+              <Link className={pathname ==  "/blog" ? "text-slate-600 " : "text-white hover:text-slate-600 route"} href={'/blog'}>blog</Link>
+              <Link className={pathname ==  "/contact" ? "text-slate-600 " : "text-white hover:text-slate-600 route"} href={'/contact'}>contact</Link>
             </div>
             <div className="bg-white flex gap-5 p-3 rounded-2xl">
               <BsFacebook className="text-2xl hover:brightness-50 transition duration-500"/>

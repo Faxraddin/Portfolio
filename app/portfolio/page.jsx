@@ -9,7 +9,7 @@ const Portfolio = () => {
         
 
             <div className="pt-20 pb-20 w-full flex justify-center items-center box-shadow-borderr">
-                <div className="flex items-center w-[72%]">
+                <div className="flex gap-7 items-center w-[72%]">
 
                     <div data-aos="fade-right" className="flex flex-col gap-7">
                         <h1 className="text-8xl font-extrabold">portfolio.</h1>
