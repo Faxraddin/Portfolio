@@ -39,13 +39,13 @@ const Navbar = () => {
               <Link href={'/'}><Image className="hover:brightness-50 transition duration-500" src={'/1.png'} width={80} height={80}/></Link>
             </div>
             <div className={`${btn ? 'block absolute z-20 top-20 left-0 bg-zinc-900 w-full' : 'flex lg:hidden'} items-center justify-between gap-20`} >
-              <div className={`flex ${btn ? 'flex-col gap-0':'flex-row'} items-center justify-between gap-20`}>
-                <Link href="/about" className={`${pathname === "/about" ? "text-slate-600 " : "text-white hover:text-slate-600 route lg:text-2xl"} ${btn?'border border-neutral-950 w-full p-3':''}`}>about</Link>
-                <Link className={`${pathname === "/portfolio" ? "text-slate-600 " : 'text-white hover:text-slate-600 route lg:text-2xl'} ${btn?'border border-neutral-950 w-full p-3':''}`} href={'/portfolio'}>portfolio</Link>
-                <Link className={`${pathname === "/blog" ? "text-slate-600 " : "text-white hover:text-slate-600 route lg:text-2xl"} ${btn?'border border-neutral-950 w-full p-3':''}`} href={'/blog'}>blog</Link>
-                <Link className={`${pathname === "/contact" ? "text-slate-600 " : "text-white hover:text-slate-600 route lg:text-2xl"} ${btn?'border border-neutral-950 w-full p-3':''}`} href={'/contact'}>contact</Link>
+              <div className={`flex ${btn ? 'flex-col gap-[1px]':'flex-row'} items-center justify-between gap-20`}>
+                <Link href="/about" className={`${pathname === "/about" ? "text-slate-600 " : "text-white hover:text-slate-600 route lg:text-2xl"} ${btn?'lg:text-2xl border border-neutral-950 w-full p-7':''}`}>about</Link>
+                <Link className={`${pathname === "/portfolio" ? "text-slate-600 " : 'text-white hover:text-slate-600 route lg:text-2xl'} ${btn?'lg:text-2xl border border-neutral-950 w-full p-7':''}`} href={'/portfolio'}>portfolio</Link>
+                <Link className={`${pathname === "/blog" ? "text-slate-600 " : "text-white hover:text-slate-600 route lg:text-2xl"} ${btn?'lg:text-2xl border border-neutral-950 w-full p-7':''}`} href={'/blog'}>blog</Link>
+                <Link className={`${pathname === "/contact" ? "text-slate-600 " : "text-white hover:text-slate-600 route lg:text-2xl"} ${btn?'lg:text-2xl border border-neutral-950 w-full p-7':''}`} href={'/contact'}>contact</Link>
               </div>
-              <div className={`bg-white ${btn ? 'w-[10%] relative left-[45%] ':''} flex gap-5 p-3 rounded-2xl`}>
+              <div className={`bg-white ${btn ? 'w-[110px] relative  left-1/2 transform -translate-x-[50%] -translate-y-[6%] ':''} flex gap-5 p-3 rounded-2xl`}>
                 <BsFacebook className="text-2xl lg:text-3xl hover:brightness-50 transition duration-500"/>
                 <AiFillInstagram className="text-2xl lg:text-3xl hover:brightness-50 transition duration-500"/>
               </div>

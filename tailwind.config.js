@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        'pm': {'max': '370px'}, 
         'sm': {'max': '640px'}, 
         'md': { 'max': '768px'}, 
         'lg': { 'max': '1024px'}, 
