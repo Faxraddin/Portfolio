@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Layout from "@/components/Layout/page"
+import Link from "next/link";
 
 const About = () => {
   return (
