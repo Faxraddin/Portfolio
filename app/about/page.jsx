@@ -60,9 +60,9 @@ const About = () => {
           </div>
         </div>
         <div className="w-full flex justify-center items-center border box-shadow-borderr">
-          <div className="flex flex-col items-center w-[72%] pt-20 gap-[50px]">
-            <h1 data-aos="fade-left" className="relative top-10 left-[407px] text-3xl">My skills</h1>
-            <Image data-aos="flip-down"  src={'/2.png'} width={1020} height={100}/>
+          <div className="flex flex-col items-center w-[72%] md:w-4/5 sm:w-[90%] pt-20 gap-[50px]">
+            <h1 data-aos="fade-left" className="relative top-10  text-3xl lg:text-[4vw]">My skills</h1>
+            <Image data-aos="flip-down" src={'/2.png'} width={1020} height={500}/>
           </div>
         </div>
         <div className="w-full flex justify-center items-center">

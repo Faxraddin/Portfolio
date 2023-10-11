@@ -5,9 +5,9 @@ import Layout from "@/components/Layout/page";
 const MainPage = () => {
     return (
       <Layout>
-      <section>
+      <section className="overflow-x-hidden">
 
-        <div className="flex justify-center items-center w-full bg-gray-50" style={{boxShadow:'0px 2px 4px rgba(0, 0, 0, 0.2)'}}>
+        <div className="overflow-x-hidden flex justify-center items-center w-full bg-gray-50" style={{boxShadow:'0px 2px 4px rgba(0, 0, 0, 0.2)'}}>
           <div className="w-full flex justify-center pt-5">
               
               <div data-aos="fade-right" className="flex w-[16%] items-center justify-center flex-col text-left gap-3">
@@ -25,7 +25,7 @@ const MainPage = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center p-20 h-auto w-full">
+        <div className="overflow-x-hiddenflex justify-center items-center p-20 h-auto w-full">
           <div className="p-3 w-full flex justify-center items-center flex-col">
 
             <div className="flex justify-center md:w-[70%] lg:w-[700px] text-center items-center w-[85%]">
