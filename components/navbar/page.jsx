@@ -36,7 +36,7 @@ const Navbar = () => {
           <div className="w-[85%] flex items-center justify-between">
 
             <div>
-              <Link href={'/'}><Image className="hover:brightness-50 transition duration-500" src={'/1.png'} width={80} height={80}/></Link>
+              <Link href={'/'}><Image className="hover:brightness-50 md:w-[60px] transition duration-500" src={'/1.png'} width={80} height={80}/></Link>
             </div>
             <div className={`${btn ? 'block absolute z-20 top-20 left-0 bg-zinc-900 w-full' : 'flex lg:hidden'} items-center justify-between gap-20`} >
               <div className={`flex ${btn ? 'flex-col gap-[1px]':'flex-row'} items-center justify-between gap-20`}>
