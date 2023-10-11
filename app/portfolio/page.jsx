@@ -22,13 +22,19 @@ const Portfolio = () => {
                 </div>
             </div>
             <div className="pt-20 pb-20 w-full flex justify-center items-center bg-gray-50 box-shadow-borderr">
-                <div className="flex items-center w-[76%]">
+                <div className="flex items-center flex-col gap-10 w-[76%]">
 
                     <div className="w-full flex justify-between gap-5 md:justify-center md:items-center md:flex-col">
+                        <LatestWork2 img={'/novation.png'} name={'Novation website'}/>
                         <LatestWork2 img={'/hotel.png'} name={'Hotel website'}/>
-                        <LatestWork2 img={'/hotel.png'} name={'Hotel website'}/>
-                        <LatestWork2 img={'/hotel.png'} name={'Hotel website'}/>   
+                        <LatestWork2 img={'/bendis.png'} name={'E-commerce website'}/>   
                     </div>
+                    <div className="w-full flex justify-between gap-5 md:justify-center md:items-center md:flex-col">
+                        <LatestWork2 img={'/rent.png'} name={'Rent House  website'}/>
+                        <LatestWork2 img={'/4.png'} name={'Portfolio  website'}/>  
+                        <LatestWork2 img={'/hotel.png'} name={'.......'}/>  
+                    </div>
+
                 </div>
             </div>
 
