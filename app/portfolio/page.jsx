@@ -1,5 +1,5 @@
 import Image from "next/image"
-import LatestWork from "@/components/portfolio-page/page"
+import LatestWork2 from "../../components/main page/latest-work"
 import Layout from "@/components/Layout/page"
 
 const Portfolio = () => {
@@ -25,9 +25,9 @@ const Portfolio = () => {
                 <div className="flex items-center w-[76%]">
 
                     <div className="w-full flex justify-between gap-5 md:justify-center md:items-center md:flex-col">
-                        <LatestWork img={'/hotel.png'} name={'Hotel website'}/>
-                        <LatestWork img={'/hotel.png'} name={'Hotel website'}/>
-                        <LatestWork img={'/hotel.png'} name={'Hotel website'}/>   
+                        <LatestWork2 img={'/hotel.png'} name={'Hotel website'}/>
+                        <LatestWork2 img={'/hotel.png'} name={'Hotel website'}/>
+                        <LatestWork2 img={'/hotel.png'} name={'Hotel website'}/>   
                     </div>
                 </div>
             </div>
