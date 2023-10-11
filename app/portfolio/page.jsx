@@ -1,5 +1,5 @@
 import Image from "next/image"
-import LatestWork2 from "../../components/main page/latest-work"
+import LatestWork2 from "@/components/portfolio-page/page"
 import Layout from "@/components/Layout/page"
 
 const Portfolio = () => {
