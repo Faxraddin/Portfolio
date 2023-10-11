@@ -71,7 +71,7 @@ const About = () => {
             <div data-aos="fade-right" className="w-[40%] lg:w-full gap-5 flex flex-col">
               <h1 className="text-4xl">My story</h1>
               <p className="text-gray-600">Learn a little bit more about me, how I got into coding, and how I'm bulding my career. I’ve included key things I've learned, book recommendations, and even some sneak peeks of the first websites I created.</p>
-              <span>Read my story</span>
+              <Link href={'/becoming'}><span>Read my story</span></Link>
             </div>
             <Image data-aos="fade-left" src={'/view.png'} width={500} height={100}/>
           </div>

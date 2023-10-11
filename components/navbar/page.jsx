@@ -38,7 +38,7 @@ const Navbar = () => {
             <div>
               <Link href={'/'}><Image className="hover:brightness-50 md:w-[60px] transition duration-500" src={'/1.png'} width={80} height={80}/></Link>
             </div>
-            <div className={`${btn ? 'block absolute z-20 top-[60px] left-0 bg-zinc-900 w-full' : 'flex lg:hidden'} items-center justify-between gap-20`} >
+            <div className={`${btn ? 'block absolute z-20 top-[73px] md:top-[60px] left-0 bg-zinc-900 w-full' : 'flex lg:hidden'} items-center justify-between gap-20`} >
               <div className={`flex ${btn ? 'flex-col gap-[1px]':'flex-row'} items-center justify-between gap-20`}>
                 <Link href="/about" className={`${pathname === "/about" ? "text-slate-600 " : "text-white hover:text-slate-600 route lg:text-2xl"} ${btn?'lg:text-2xl border border-neutral-950 w-full p-7':''}`}>about</Link>
                 <Link className={`${pathname === "/portfolio" ? "text-slate-600 " : 'text-white hover:text-slate-600 route lg:text-2xl'} ${btn?'lg:text-2xl border border-neutral-950 w-full p-7':''}`} href={'/portfolio'}>portfolio</Link>
