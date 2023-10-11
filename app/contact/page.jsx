@@ -9,7 +9,7 @@ const Contact = () => {
 
             <div className="w-full flex justify-center items-center box-shadow-borderr">
                 <div className="flex gap-3 justify-between w-[72%] lg:flex-col">
-                    <div data-aos="fade-right" className="w-2/5 sm-3/5 pm:w-4/5 flex flex-col gap-7">
+                    <div data-aos="fade-right" className="w-2/5 sm-3/5 pm:w-4/5 flex flex-col gap-7 relative top-10 lg:top-0">
                         <h1 className="text-8xl font-extrabold pm:text-5xl sm:text-6xl">contact.</h1>
                         <h3 className="text-2xl sm:text-xl text-gray-500">Get in touch with me via social media or email.</h3>
                         <div className="flex justify-between items-center">
