@@ -44,7 +44,7 @@ const Story = () => {
 
       <div className="w-full flex justify-center items-center">
         <div className="flex items-center w-[640px] border-b pb-14 md:w-[90%]">
-          <div className="flex font-light flex-col gap-6 pt-14">
+          <div className="flex font-light flex-col gap-6 pt-14 md:w-[90%]">
 
             <h1 className="text-4xl text-gray-700">Quick facts</h1>
             <div className="flex flex-col gap-2 mb-5">
@@ -53,27 +53,29 @@ const Story = () => {
             </div>
             <div className="flex flex-col gap-2 mb-5">
               <h2 className="text-xl font-bold">When I started as a designer</h2>
-              <p className="text-xl">2018 (in my pyjamas from my bedroom in my parent’s house).</p>
+              <p className="text-xl md:w-[90%]">2018 (in my pyjamas from my bedroom in my parent’s house).</p>
             </div>
             <div className="flex flex-col gap-2 mb-5">
               <h2 className="text-xl font-bold">Specialties/Skills</h2>
-              <p className="text-xl">Web development,Problem Solving,TypeScript,Clean Coding,SASS,Boostrap (Framework),Redux.js,React.js,Node.js,MongoDB,Express.js,Next.js,Python,AI</p>
+              <p className="text-xl md:text-[18px]">Problem Solving,Python,AI,TypeScript,Clean Coding,SASS,Boostrap (Framework)</p>
+              <p className="text-xl md:text-[18px]">ReduxJs,ReactJs,NodeJs,NextJs</p>
+              <p className="text-xl md:text-[18px]">Web development,MongoDB,ExpressJs</p>
             </div>
             <div className="flex flex-col gap-2 mb-5">
               <h2 className="text-xl font-bold">Hobbies</h2>
-              <p className="text-xl">Gym, cooking, travelling, coding , reading. Does Netflixing on the couch with count? 😅</p>
+              <p className="text-xl md:w-[90%]">Gym, cooking, travelling, coding , reading. Does Netflixing on the couch with count? 😅</p>
             </div>
             <div className="flex flex-col gap-2 mb-5">
               <h2 className="text-xl font-bold">Favourite pastime</h2>
-              <p className="text-xl">BBQ by the water family.Relaxing by sitting allone.</p>
+              <p className="text-xl md:w-[90%]">BBQ by the water family.Relaxing by sitting allone.</p>
             </div>
             <div className="flex flex-col gap-2 mb-5">
               <h2 className="text-xl font-bold">If I wasn’t a programmer</h2>
-              <p className="text-xl">I’d be a astronout or an chef, or maybe both?</p>
+              <p className="text-xl md:w-[90%]">I’d be a astronout or an chef, or maybe both?</p>
             </div>
             <div className="flex flex-col gap-2 mb-5">
               <h2 className="text-xl font-bold">Favourite quote</h2>
-              <p className="text-xl">“Become better every day,stay consistent.Because 0.1% * 365 == 36.5 but 0% * 365 == 0”.</p>
+              <p className="text-xl md:w-[90%]">“Become better every day,stay consistent.Because 0.1% * 365 == 36.5 but 0% * 365 == 0”.</p>
             </div>
 
           </div>
