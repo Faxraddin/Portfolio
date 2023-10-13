@@ -11,15 +11,15 @@ const MainPage = () => {
           <div className="w-full flex justify-center pt-5">
               
               <div data-aos="fade-right" className="flex w-[16%] items-center justify-center flex-col text-left gap-3">
-                  <h1 className="text-5xl w-full font-black lg:text-[3vw]">PYTHON</h1>
-                  <p className="text-xs w-full text-stone-400 sm:text-[1.3vw]">Python developer who writes simple AI and TG bots.</p>
+                  <h1 className="text-5xl w-full font-black lg:text-[5vw]">PYTHON</h1>
+                  <p className="text-xs w-full text-stone-400 md:hidden">Python developer who writes simple AI and TG bots.</p>
               </div>
               <div className="relative w-[50%] flex items-center justify-center">
                 <Image className="object-cover" src={'/me.png'} width={700} height={600} />
               </div>
               <div data-aos="fade-left" className="w-[16%] flex items-center justify-center flex-col text-left gap-3">
-                  <h1 className="text-5xl w-full font-black lg:text-[3vw]">CODER</h1>
-                  <p className="text-xs w-full text-stone-400 sm:text-[1.3vw]"> Full-Stack developer who writes clean,elegant and efficient code.</p>
+                  <h1 className="text-5xl w-full font-black lg:text-[5vw]">CODER</h1>
+                  <p className="text-xs w-full text-stone-400 md:hidden"> Full-Stack developer who writes clean,elegant and efficient code.</p>
               </div>
               
           </div>
