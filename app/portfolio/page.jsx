@@ -27,12 +27,17 @@ const Portfolio = () => {
                     <div className="w-full flex justify-between gap-5 md:justify-center md:items-center md:flex-col">
                         <LatestWork2 img={'/novation.png'} name={'Novation website'}/>
                         <LatestWork2 img={'/hotel.png'} name={'Hotel website'}/>
-                        <LatestWork2 img={'/bendis.png'} name={'E-commerce website'}/>   
+                        <LatestWork2 img={'/bendis.png'} name={'Backend E-commerce website'}/>   
                     </div>
                     <div className="w-full flex justify-between gap-5 md:justify-center md:items-center md:flex-col">
                         <LatestWork2 img={'/rent.png'} name={'Rent House  website'}/>
-                        <LatestWork2 img={'/4.png'} name={'Portfolio  website'}/>  
-                        <LatestWork2 img={'/hotel.png'} name={'.......'}/>  
+                        <LatestWork2 img={'/4.png'} name={'Portfolio  website'}/>
+                        <LatestWork2 img={'/project-man2.png'} name={'Project management website'}/>  
+                    </div>
+                    <div className="w-full flex justify-between gap-5 md:justify-center md:items-center md:flex-col">
+                        <LatestWork2 img={'/e-commerce.png'} name={'E-commerce on MERN'}/>
+                        <LatestWork2 img={'/marathon.png'} name={'Marathon website'}/>
+                        <LatestWork2 img={'/e-commerce.png'} name={'E-commerce on MERN'}/>
                     </div>
 
                 </div>
