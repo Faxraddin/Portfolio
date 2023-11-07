@@ -22,7 +22,8 @@ const MainPage = () => {
                   <p className="text-xs w-full text-stone-400 md:hidden"> Full-Stack developer who writes clean,elegant and efficient code.</p>
               </div>
               
-          </div>
+          </div>  
+          
         </div>
 
         <div className="overflow-x-hiddenflex justify-center items-center p-20 h-auto w-full">
